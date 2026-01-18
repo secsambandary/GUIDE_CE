@@ -40,17 +40,28 @@
                     <img src="docs/logo_sn.jfif" alt="Logo Ministère" class="hero-logo">
                 </div>
                 <div class="hero-text">
-                    <h1>Espace Numérique du Chef d'Établissement </h1>
-                    <p class="hero-subtitle">Bienvenue, chers chefs d'Etablissement.
-                    Ce site est une adaptation numérique du "Guide de Management des Collèges et Lycées" édité par la DEMSG (Ministère de l'Éducation Nationale du Sénégal).</p>
+                    <h1>Espace Numérique du Chef d'Établissement</h1>
+                    <p class="hero-subtitle">Le "Guide de Management des Collèges et Lycées" à portée de main. Trouvez rapidement les outils, modèles et textes réglementaires dont vous avez besoin.</p>
                 </div>
             </div>
+
+            <!-- Global Search Bar -->
+            <div class="hero-search-wrapper">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="globalSearchInput" class="search-input" placeholder="Rechercher dans tout le guide (ex: 'budget', 'absence', 'cge')...">
+                </div>
+                <div id="globalSearchResults" class="search-results-container">
+                    <!-- Les résultats de la recherche apparaîtront ici -->
+                </div>
+            </div>
+
         </div>
     </section>
 
     <div class="document-actions">
          <a target="_blank" href="docs/G_complet.pdf" class="btn-download" download>
-            <i class="fas fa-download"></i> Télécharger le document Complet
+            <i class="fas fa-download"></i> Télécharger le Guide Complet (PDF)
         </a>
     </div>
 
@@ -244,6 +255,8 @@
         </div>
     </footer>
 
+    <script src="js/search-index.js"></script>
+    <script src="js/global-search.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
