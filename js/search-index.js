@@ -398,6 +398,18 @@ const searchIndex = [
     docUrl: "docs/DECRET 2014-632 fixant les credits et coef.pdf",
     keywords: "horaires coefficients discipline"
   },
+
+  {
+    pageName: "Pédagogie",
+    pageUrl: "pedagogie.html",
+    title: "Document de référence sur les PHARES (PAQEEB OCTOBRE 2021)",
+    description: "Mise en oeuvre et fonctionnement des organes de pilotage du Processus de standardisation des épreuves, de correction des copies et d’analyse des résultats",
+    docUrl: "docs/PHARES.pdf",
+    keywords: "PHARES"
+  },
+
+
+
   {
     pageName: "Pédagogie",
     pageUrl: "pedagogie.html",
